@@ -148,26 +148,26 @@ wss://ai-agent.example.com/ws/media-stream
 
 ---
 
-## 🔗 Section 5. Integrating Your WebSocket Endpoint with SmartPBX
+## 🔗 Section 5. Integrating Your WebSocket Endpoint with SmartPBX > AI Provider
 
-### Step 1: Define an SmartPBX > AI Provider
+### Step 1: Define an AI Provider
 
 1. Log in to the **SmartPBX Portal** and navigate to the **⚙️ Configuration** section.  
 2. Select **# Numbers → AI Providers** from the left navigation menu.  
 3. Click **+ Add**.  
 4. Fill in the following details:
-   - **Name:** Display name of your SmartPBX > AI Provider.  
+   - **Name:** Display name of your AI Provider.  
    - **Media:** Audio format and sample rate supported by your WebSocket endpoint.  
    - **WebSocket URL:** Example — `wss://ai-agent.example.com/ws/media-stream`  
    - **WebSocket Headers:** Optional authorization tokens or metadata.
 
 ---
 
-### Step 2: Bind the SmartPBX > AI Provider to a DID Number
+### Step 2: Bind the AI Provider to a DID Number
 
 1. Go to **⚙️ Configuration → # Numbers → Phone Numbers**.  
-2. Select the **DID number** you want to bind to your SmartPBX > AI Provider.  
-3. From the **Used by** dropdown, select the SmartPBX > AI Provider created in Step 1.
+2. Select the **DID number** you want to bind to your AI Provider.  
+3. From the **Used by** dropdown, select the AI Provider created in Step 1.
 
 ---
 
